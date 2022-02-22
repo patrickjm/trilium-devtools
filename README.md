@@ -17,7 +17,7 @@ In other words, you get webpack hot-reload on your Trilium code note. That means
 
 Installation:
 ```sh-session
-$ npm install -g trilium-devtools
+$ npm install trilium-devtools
 ```
 
 In your project directory (or added to an NPM script):
