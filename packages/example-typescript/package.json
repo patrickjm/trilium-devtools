@@ -1,0 +1,17 @@
+{
+  "name": "trilium-typescript-test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "trilium-devtools start"
+  },
+  "author": "patrickjm",
+  "dependencies": {
+    "trilium-devtools": "0.1.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3"
+  }
+}
