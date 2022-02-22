@@ -36,7 +36,7 @@ Finally, you will need a `trilium-devtools.config.js` file. You can find an [exa
 # Known issues/annoyances
 
 - You may need to save a couple times before the code makes it to Trilium the first time
-- Doesn't use ETAPI as this was written before it existed
+- Doesn't use ETAPI
 - Limited params; pegged to a single hard-coded trilium version, no directory control, etc...
 - Limited to only 1 code note output. You can't have multiple outputs (like a mixture of frontend/server notes)
 
