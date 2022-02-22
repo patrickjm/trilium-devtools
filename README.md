@@ -4,7 +4,7 @@ trilium-devtools
 [![Version](https://img.shields.io/npm/v/trilium-devtools.svg)](https://npmjs.org/package/trilium-devtools)
 [![License](https://img.shields.io/npm/l/trilium-devtools.svg)](https://github.com/patrickjm/trilium-devtools/blob/master/package.json)
 
-A CLI tool for faster script-note development on ![Trilium Notes](https://github.com/zadam/trilium). It does the following:
+A CLI tool for faster script-note development on [Trilium Notes](https://github.com/zadam/trilium). It does the following:
 
 1. Installs a fresh trilium server with custom config
 2. Reads your webpack config at `trilium-devtools.config.js`
@@ -23,9 +23,15 @@ $ npm install -g trilium-devtools
 In your project directory (or added to an NPM script):
 ```sh-session
 $ trilium-devtools start
+
+# OR
+
+$ yarn trilium-devtools start
 ```
 
 Then, add `./trilium` to your project's `.gitignore` file.
+
+Finally, you will need a `triliu-devtools.config.js` file. You can find an [example in the Typescript example folder](packages/example-typescript/trilium-devtools.config.js).
 
 # Known issues/annoyances
 
@@ -35,7 +41,7 @@ Then, add `./trilium` to your project's `.gitignore` file.
 - Limited to only 1 code note output. You can't have multiple outputs (like a mixture of frontend/server notes)
 
 # How it works
-1. On Trilium installation, replaces the tutorial notes with ![custom notes](packages/trilium-devtools/scripts/Devtools.zip) that:
+1. On Trilium installation, replaces the tutorial notes with [custom notes](packages/trilium-devtools/scripts/Devtools.zip) that:
    - Server: Starts express and listens on port 3001
    - Frontend: Polls the http server periodically for updates
 2. Starts webpack in your project directory. You supply most of this webpack config in `trilium-devtools.config.js`. It starts webpack in watch mode.
