@@ -31,7 +31,7 @@ $ yarn trilium-devtools start
 
 Then, add `./trilium` to your project's `.gitignore` file.
 
-Finally, you will need a `triliu-devtools.config.js` file. You can find an [example in the Typescript example folder](packages/example-typescript/trilium-devtools.config.js).
+Finally, you will need a `trilium-devtools.config.js` file. You can find an [example in the Typescript example folder](packages/example-typescript/trilium-devtools.config.js).
 
 # Known issues/annoyances
 
